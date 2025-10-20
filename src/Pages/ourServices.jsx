@@ -48,10 +48,11 @@ function OurServices() {
   ]
 
   return (
-    <>
+    <div className="flex flex-col min-h-screen">
       <NavBar/>
 
-      <div className="max-w-6xl mx-auto px-4 py-12">
+    <div className='flex-grow  flex flex-col items-center justify-start bg-gradient-to-br from-[#1398B7] via-[#0B7CA0] to-[#0B6285]'>
+    <div className="max-w-6xl mx-auto px-4 py-12">
         <h2 className='text-2xl sm:text-4xl font-bold text-center mb-10'>Our Services</h2>
 
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8'>
@@ -67,9 +68,11 @@ function OurServices() {
             )) }
         </div>
       </div>
+    </div>
+      
 
       <Footer/>
-    </>
+    </div>
   )
 }
 

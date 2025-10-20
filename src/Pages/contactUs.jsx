@@ -31,9 +31,10 @@ function ContactUs() {
 
 
   return (
-    <>
+    <div className="flex flex-col min-h-screen">
       <NavBar />
 
+      <div className='flex-grow  flex flex-col items-center justify-start bg-gradient-to-br from-[#1398B7] via-[#0B7CA0] to-[#0B6285]'>
       <div className="max-w-4xl mx-auto px-4 py-12">
         <h2 className="text-3xl font-bold text-center mb-4">Let's Connect!</h2>
         <p className="text-center text-lg text-gray-700 mb-8">
@@ -87,9 +88,12 @@ function ContactUs() {
           </button>
         </form>
       </div>
+      </div>
+
+      
 
       <Footer />
-    </>
+    </div>
   )
 }
 

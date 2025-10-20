@@ -9,10 +9,10 @@ const HomePage = () => {
 const navigate = useNavigate();
 
   return (
-    <>
+    <div className="flex flex-col min-h-screen">
     <NavBar/>
 
-    <div>
+    <div className='flex-grow  flex flex-col items-center justify-start bg-gradient-to-br from-[#1398B7] via-[#0B7CA0] to-[#0B6285]'>
     <div className=' text-white mt-12 mb-2 p-8  text-center max-w-xl mx-auto'>
     <h1 className='text-2xl font-bold mb-3'>The Link Hub Africa</h1>
   <p className='text-xl font-semibold mb-2'>
@@ -33,7 +33,7 @@ const navigate = useNavigate();
     </div>
 
     <Footer/>
-    </>
+    </div>
   )
 }
 

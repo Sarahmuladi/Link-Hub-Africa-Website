@@ -1,12 +1,22 @@
 @import "tailwindcss";
 
-@theme{
-    --color-primary:#0B6285; /*teal*/
-    --color-secondary:#87CEEB; /*sky blue*/
-    --color-tertiary:#F0F7FA; /*white*/
-    --color-accent:#FF6B6B; /*Coral Orange*/
+@theme {
+  --color-primary: #0B6285;    /* teal */
+  --color-secondary: #87CEEB;  /* sky blue */
+  --color-tertiary: #F0F7FA;   /* white */
+  --color-accent: #FF6B6B;     /* coral orange */
 }
 
+/* Body background gradient and default text color */
 body {
   @apply bg-gradient-to-br from-[#1398B7] via-[#0B7CA0] to-[#0B6285] text-white;
+  margin: 0;
+  min-height: 100vh;
+}
+
+/* Making the entire page fill the viewport */
+html,
+body,
+#root {
+  height: 100%;
 }
