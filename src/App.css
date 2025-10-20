@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme{
+    --color-primary:#0B6285; /*teal*/
+    --color-secondary:#87CEEB; /*sky blue*/
+    --color-tertiary:#F0F7FA; /*white*/
+    --color-accent:#FF6B6B; /*Coral Orange*/
+}
+
+body {
+  @apply bg-gradient-to-br from-[#1398B7] via-[#0B7CA0] to-[#0B6285] text-white;
+}
