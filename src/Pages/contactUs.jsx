@@ -47,6 +47,7 @@ function ContactUs() {
         name='contact'
         method='POST'
         data-netlify="true"
+        netlify
         onSubmit={handleSubmit}
         >
 
